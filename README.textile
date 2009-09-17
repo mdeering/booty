@@ -2,14 +2,13 @@ h1. Booty: Pirate Speak Gem
 
 h2.  Install
 <pre><code>gem sources -a http://gems.github.com
-sudo gem install mdeering-booty --source</code></pre>
+sudo gem install mdeering-booty</code></pre>
 
 h2.  Usage
 <pre><code># We all require a little...
 require 'booty'
-
 msg =  'There was no question this was going to work as a singleton call.  All puns intended!'
-Booty.call(msg) # => "There was nay question this was going t' brig as a singleton call.  All puns intended! surrender yer booty."<code><pre>
+Booty.call(msg) # => "There was nay question this was going t' brig as a singleton call.  All puns intended! surrender yer booty."</code></pre>
 
 h2. Credits
 

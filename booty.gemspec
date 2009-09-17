@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Michael Deering"]
   s.date = %q{2009-09-17}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Bring 'er alongside. Tis be eh Ruby gem that converts english t' pirate speak. Arrr.}
   s.email = %q{mdeering@mdeering.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -20,15 +20,19 @@ Gem::Specification.new do |s|
     ".document",
      ".gitignore",
      "LICENSE",
+     "README.textile",
      "Rakefile",
      "VERSION",
-     "lib/booty.rb"
+     "booty.gemspec",
+     "lib/booty.rb",
+     "spec/booty_spec.rb",
+     "spec/test_helper.rb"
   ]
   s.homepage = %q{http://github.com/mdeering/booty}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Bring 'er alongside. Tis be eh Ruby gem that converts english t' pirate speak. Arrr.}
   s.test_files = [
     "spec/booty_spec.rb",
      "spec/test_helper.rb"
@@ -39,11 +43,8 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
     else
-      s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
     end
   else
-    s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
   end
 end
