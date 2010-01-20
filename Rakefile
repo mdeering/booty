@@ -11,6 +11,7 @@ begin
     gem.homepage    = "http://github.com/mdeering/booty"
     gem.authors     = ["Michael Deering"]
   end
+  Jeweler::GemcutterTasks.new
 rescue LoadError
   puts "Take no prisoners! Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
 end
